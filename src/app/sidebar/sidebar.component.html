@@ -1,0 +1,16 @@
+<mat-sidenav-container class="example-container">
+  <mat-sidenav opened mode="side" class="sidebar-container">
+    <div class="pltr-image"><img src="../../assets/planter_icon.png"></div>
+    <div class="links-container">
+      <mat-nav-list>
+        <mat-divider></mat-divider>
+        <div *ngFor="let link of NAV_LINKS">
+          <a mat-list-item href="..."> {{ link }} </a>
+          <mat-divider></mat-divider>
+        </div>
+     </mat-nav-list>
+    </div>
+    <div class="bottom-cred">Made with &hearts; in Vancouver</div>
+  </mat-sidenav>
+  <mat-sidenav-content>Main</mat-sidenav-content>
+</mat-sidenav-container>
