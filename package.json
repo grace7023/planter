@@ -88,7 +88,7 @@
         "all"
       ],
       "indent": [
-        "error",
+        "warn",
         2,
         {
           "SwitchCase": 1
@@ -103,7 +103,7 @@
       ],
       "multiline-comment-style": "warn",
       "no-else-return": "warn",
-      "no-trailing-spaces": "error",
+      "no-trailing-spaces": "warn",
       "no-unused-vars": [
         "warn",
         {

@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'pltr-plant-list',
   templateUrl: './plant-list.component.html',
-  styleUrls: ['./plant-list.component.scss'],
+  styleUrls: ['./plant-list.component.scss']
 })
 export class PlantListComponent implements OnInit {
   PLANTS = [
@@ -13,7 +13,7 @@ export class PlantListComponent implements OnInit {
     { name: 'Plant 4', image: 'assets/planter_icon.png' },
     { name: 'Plant 5', image: 'assets/planter_icon.png' },
     { name: 'Plant 6', image: 'assets/planter_icon.png' },
-    { name: 'Plant 7', image: 'assets/planter_icon.png' },
+    { name: 'Plant 7', image: 'assets/planter_icon.png' }
   ];
   columnsToDisplay = ['name'];
 

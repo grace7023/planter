@@ -6,6 +6,6 @@ import { PlantListComponent } from './plant-list/plant-list.component';
 
 @NgModule({
   declarations: [PlantListComponent],
-  imports: [CommonModule, MatDividerModule, MatListModule],
+  imports: [CommonModule, MatDividerModule, MatListModule]
 })
 export class PlantModule {}

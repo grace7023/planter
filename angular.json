@@ -23,10 +23,7 @@
             "polyfills": "apps/planter/src/polyfills.ts",
             "tsConfig": "apps/planter/tsconfig.app.json",
             "aot": true,
-            "assets": [
-              "apps/planter/src/favicon.ico",
-              "apps/planter/src/assets"
-            ],
+            "assets": ["apps/planter/src/favicon.ico", "apps/planter/src/assets"],
             "styles": ["apps/planter/src/styles.scss"],
             "scripts": []
           },
@@ -85,10 +82,7 @@
             "polyfills": "apps/planter/src/polyfills.ts",
             "tsConfig": "apps/planter/tsconfig.spec.json",
             "karmaConfig": "apps/planter/karma.conf.js",
-            "assets": [
-              "apps/planter/src/favicon.ico",
-              "apps/planter/src/assets"
-            ],
+            "assets": ["apps/planter/src/favicon.ico", "apps/planter/src/assets"],
             "styles": ["apps/planter/src/styles.scss"],
             "scripts": []
           }
@@ -96,10 +90,7 @@
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
-            "tsConfig": [
-              "apps/planter/tsconfig.app.json",
-              "apps/planter/tsconfig.spec.json"
-            ],
+            "tsConfig": ["apps/planter/tsconfig.app.json", "apps/planter/tsconfig.spec.json"],
             "exclude": ["**/node_modules/**"]
           }
         }
