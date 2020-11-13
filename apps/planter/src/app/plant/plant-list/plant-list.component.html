@@ -1,0 +1,7 @@
+<mat-list class="list-container">
+  <mat-list-item *ngFor="let plant of PLANTS; last as last" class="list-item-content">
+    <img matListAvatar [src]="plant.image" class="plant-avatar" />
+    <div mat-line class="plant-name">{{ plant.name }}</div>
+    <mat-divider *ngIf="!last"></mat-divider>
+  </mat-list-item>
+</mat-list>
