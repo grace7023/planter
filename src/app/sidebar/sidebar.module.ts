@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatListModule } from '@angular/material/list';
 import { MatSidenavModule } from '@angular/material/sidenav';
+import { RouterModule } from '@angular/router';
 import { SidebarComponent } from './sidebar.component';
 
 @NgModule({
@@ -13,7 +14,8 @@ import { SidebarComponent } from './sidebar.component';
     CommonModule,
     MatDividerModule,
     MatListModule,
-    MatSidenavModule
+    MatSidenavModule,
+    RouterModule
   ],
   providers: [],
   exports: [ SidebarComponent ]

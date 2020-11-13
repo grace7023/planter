@@ -8,9 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class SidebarComponent implements OnInit {
 
   NAV_LINKS = [
-    'reminders',
-    'plants',
-    'account'
+    { label: 'reminders', url: ''},
+    { label: 'plants', url: '/plants'},
+    { label: 'account', url: ''},
   ];
 
   constructor() { }

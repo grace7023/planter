@@ -1,1 +1,11 @@
-<pltr-sidebar></pltr-sidebar>
+<mat-sidenav-container class="main-container">
+  <mat-sidenav opened mode="side" class="sidebar-container">
+    <pltr-sidebar></pltr-sidebar>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <div class="main-content">
+      <router-outlet></router-outlet>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>
